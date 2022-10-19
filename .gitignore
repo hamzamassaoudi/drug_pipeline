@@ -1,2 +1,3 @@
 drug_pipeline_venv/
 *.egg
+.DS_Store

@@ -64,4 +64,4 @@ To scale the solution to be able to process large volumes of data, I recommend t
 * Build the package and publish it to facilitate its use
 * Build a continuous integration pipeline
 * Use Click package instead of Argparse
-* Configure a gitignore file
+* enrich the gitignore file
