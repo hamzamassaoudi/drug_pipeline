@@ -1,6 +1,6 @@
 # Introduction
 
-Given datasets of drugs, pubmed publications and clinical trials publications, this package help build a graph json representation of all drugs occurrences.
+Given datasets of drugs, pubmed publications and clinical trials publications, this package helps building a graph json representation of all drugs occurrences.
 
 ![Graph representation](doc/graph.png)
 
@@ -27,7 +27,7 @@ python pipeline_main.py --drugs_file_path "custom_drug_file_path" --output_path 
 
 ## Get the journal with most drugs occurrences
 
-Get the name of the journal using all preprocessing steps
+Get the journal name using all preprocessing steps
 ```
 # import utils functions
 from drug_pipeline.adhoc_utils import most_journal_drug_mentions, read_json_results
@@ -64,3 +64,4 @@ To scale the solution to be able to process large volumes of data, I recommend t
 * Build the package and publish it to facilitate its use
 * Build a continuous integration pipeline
 * Use Click package instead of Argparse
+* Configure a gitignore file
